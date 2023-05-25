@@ -8,6 +8,7 @@
     "./ffmpeg": "./lib/ffmpeg.js",
     "./util": "./lib/util.js",
     "./rest-client": "./lib/rest-client.js"
+    "./lib/rest-client": "./lib/rest-client.js"
   },
   "scripts": {
     "build": "rm -rf lib && tsc --declaration && chmod +x ./lib/ring-*-cli.js",
